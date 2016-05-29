@@ -1,0 +1,15 @@
+<div class="panel panel-primary">
+    <div class="panel-heading" ng-click="collapse()">{{user.name}}</div>
+    <div class="panel-body" ng-hide="collapsed">
+        <address ng-show="!!user.address"></address>
+        Friends:
+        <ul>
+            <li ng-repeat="friend in user.friends">
+                {{friend}}<friend></friend>
+            </li>
+        </ul>
+
+        <label ng-show="knight">{{knight}}</label>
+        <button class="btn btn-success" ng-click="knightMe()" ng-show="!knight">Knight Me</button>
+    </div>
+</div>

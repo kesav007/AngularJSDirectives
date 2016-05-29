@@ -1,0 +1,10 @@
+<div ng-show="!addressCollapsed" ng-click="addressCollapse()">
+    Address:<br>
+    {{user.address.street}}<br>
+    {{user.address.city}}<br>
+    {{user.address.state}}
+</div>
+<div ng-show="addressCollapsed" ng-click="addressCollapse()">
+    Address:<br>
+    {{user.address.state}}....
+</div>
