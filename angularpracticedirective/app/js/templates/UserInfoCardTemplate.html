@@ -1,0 +1,15 @@
+<div class="panel panel-primary">
+	<div class="panel-heading" ng-click="collapse()">
+		{{user.name}}
+	</div>
+	<div class="panel-body" state-display="user.level white yellow orange pink" ng-hide="collapsed">
+		<user-info-card-address></user-info-card-address>
+		<h4>Friends</h4>
+		<ul ng-repeat="friend in user.friends">
+			<li>{{friend}}
+				<user-info-card-friend method="remove(friend)"></user-info-card-friend>
+			</li>
+		</ul>
+		<button class="btn btn-primary" ng-click="nextState()">Next State</button>
+	</div>
+</div>

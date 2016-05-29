@@ -1,0 +1,146 @@
+{
+	"id" : 1,
+	"employees" : [
+	{
+		"id" : 7839,
+		"name" : "KING",
+		"job": "PRESIDENT",
+		"hiredate" : "17-NOV-81",
+		"sal" : 5000,
+		"comm" : 0,	
+		"dept" : 10
+	},
+	{
+		"id" : 7698,
+		"name" : "BLAKE",
+		"job" : "MANAGER",
+		"mgr" : "7839",
+		"hiredate" : "01-MAY-81",
+		"sal" : 2850,
+		"comm" : 0,	
+		"dept" : 30
+	},
+	{
+		"id" : 7782,
+		"name" : "CLARK",
+		"job" : "MANAGER",
+		"mgr" : "7839",
+		"hiredate" : "09-JUN-81",
+		"sal" : 2450,
+		"comm" : 0,	
+		"dept" : 10
+	},
+	{
+		"id" : 7566,
+		"name" : "JONES",
+		"job" : "MANAGER",
+		"mgr" : "7839",
+		"hiredate" : "02-APR-81",
+		"sal" : 2975,
+		"comm" : 0,	
+		"dept" : 20
+	},
+	{
+		"id" : 7902,
+		"name" : "FORD",
+		"job" : "ANALYST",
+		"mgr" : "7566",
+		"hiredate" : "03-DEC-81",
+		"sal" : 3000,
+		"comm" : 0,	
+		"dept" : 20
+	},
+	{
+		"id" : 7369,
+		"name" : "SMITH",
+		"job" : "CLERK",
+		"mgr" : "7902",
+		"hiredate" : "17-DEC-80",
+		"sal" : 800,
+		"comm" : 0,	
+		"dept" : 20
+	},
+	{
+		"id" : 7499,
+		"name" : "ALLEN",
+		"job" : "SALESMAN",
+		"mgr" : "7698",
+		"hiredate" : "20-FEB-81",
+		"sal" : 1600,
+		"comm" : 300,	
+		"dept" : 30
+	},
+	{
+		"id" : 7521,
+		"name" : "WARD",
+		"job" : "SALESMAN",
+		"mgr" : "7698",
+		"hiredate" : "22-FEB-81",
+		"sal" : 1250,
+		"comm" : 500,	
+		"dept" : 30
+	},
+	{
+		"id" : 7654,
+		"name" : "MARTIN",
+		"job" : "SALESMAN",
+		"mgr" : "7698",
+		"hiredate" : "28-SEP-81",
+		"sal" : 1250,
+		"comm" : 1400,	
+		"dept" : 30
+	},      
+	{
+		"id" : 7844,
+		"name" : "TURNER",
+		"job" : "SALESMAN",
+		"mgr" : "7698",
+		"hiredate" : "08-SEP-81",
+		"sal" : 1500,
+		"comm" : 0,	
+		"dept" : 30
+	},        
+	{
+		"id" : 7876,
+		"name" : "ADAMS",
+		"job" : "CLERK",
+		"mgr" : "7788",
+		"hiredate" : "23-MAY-87",
+		"sal" : 1100,
+		"comm" : 0,	
+		"dept" : 20
+	}              
+	,        
+	{
+		"id" : 7900,
+		"name" : "JAMES",
+		"job" : "CLERK",
+		"mgr" : "7698",
+		"hiredate" : "03-DEC-81",
+		"sal" : 950,
+		"comm" : 0,	
+		"dept" : 30
+	}          
+	,        
+	{
+		"id" : 7934,
+		"name" : "MILLER",
+		"job" : "CLERK",
+		"mgr" : "7782",
+		"hiredate" : "23-JAN-82",
+		"sal" : 1300,
+		"comm" : 0,	
+		"dept" : 10
+	}              
+	,        
+	{
+		"id" : 7777,
+		"name" : "KESAV",
+		"job" : "MANAGER",
+		"mgr" : "7839",
+		"hiredate" : "03-MAY-03",
+		"sal" : 5000,
+		"comm" : 0,	
+		"dept" : 20
+	}]
+}              
